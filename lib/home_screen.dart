@@ -30,24 +30,25 @@ class HomeScreen extends StatelessWidget {
                   "A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.",
             ),
             pw.Container(
-                width: double.infinity,
-                height: 100.0,
-                child: pw.Row(
-                  children: [
-                    pw.Expanded(
-                      flex: 2,
-                      child: pw.Container(
-                        color: PdfColor.fromHex("00e0d8"),
-                      ),
+              width: double.infinity,
+              height: 100.0,
+              child: pw.Row(
+                children: [
+                  pw.Expanded(
+                    flex: 2,
+                    child: pw.Container(
+                      color: PdfColor.fromHex("00e0d8"),
                     ),
-                    pw.Expanded(
-                      flex: 4,
-                      child: pw.Container(
-                        color: PdfColor.fromHex("d6cb00"),
-                      ),
-                    )
-                  ],
-                )),
+                  ),
+                  pw.Expanded(
+                    flex: 4,
+                    child: pw.Container(
+                      color: PdfColor.fromHex("d6cb00"),
+                    ),
+                  )
+                ],
+              ),
+            ),
           ];
         },
       ),
